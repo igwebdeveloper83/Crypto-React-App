@@ -11,12 +11,22 @@ const options = {
   };
 
   export function fetchCrypto() {
-        setTimeout(() => {
-            fetch('https://openapiv1.coinstats.app/coins', options)
+    return new Promise((resolve, reject) => {
+        
+          fetch('https://openapiv1.coinstats.app/coins', options)
             .then(response => response.json())
-            .then(response => console.log(response))
-            .catch(err => console.error(err))
-        },3000)
+            .then(data => {
+              console.log(data);
+              setTimeout(() => {
+                resolve(data);
+              },1)
+            })
+            .catch(err => {
+              console.error(err);
+              reject(err);
+            });
+        
+      });
     
   }
     
@@ -24,6 +34,6 @@ export function fetchAssets() {
     return new Promise((resolve) => {
         setTimeout(() => {
             resolve(cryptoAssets)
-        }, 2000)
+        }, 1)
     })
 }
