@@ -6,7 +6,6 @@ import CryptoContext from '../../context/crypto-context';
 
 const siderStyle = {
     padding: '1rem',
-    backgroundColor: '#0958d9',
   };
 
   export default function AppSider() {
