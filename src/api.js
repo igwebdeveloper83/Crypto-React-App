@@ -16,7 +16,7 @@ const options = {
           fetch('https://openapiv1.coinstats.app/coins', options)
             .then(response => response.json())
             .then(data => {
-              console.log(data);
+              console.log(data.result);
               setTimeout(() => {
                 resolve(data);
               },1)
