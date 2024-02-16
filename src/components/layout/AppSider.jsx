@@ -2,7 +2,7 @@ import { Layout, Card, Statistic, List, Typography, Tag } from 'antd';
 import { ArrowDownOutlined, ArrowUpOutlined } from '@ant-design/icons';
 import { useContext } from 'react';
 import { capitalize, mapAssets } from '../../utils';
-import CryptoContext from '../../context/crypto-context';
+import CryptoContext from '../../context/CryptoContext';
 
 const siderStyle = {
     padding: '1rem',
