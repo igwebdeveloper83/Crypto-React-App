@@ -1,6 +1,6 @@
 import { Layout, Select, Space, Button, Modal, Drawer } from 'antd';
 import { useContext, useEffect, useState } from 'react';
-import CryptoContext from '../../context/crypto-context';
+import CryptoContext from '../../context/CryptoContext';
 import CoinInfoModal from '../CoinInfoModal';
 import AddAssetForm from '../AddAssetForm';
 

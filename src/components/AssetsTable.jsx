@@ -1,6 +1,6 @@
 import { Table } from 'antd';
 import { useContext } from 'react';
-import CryptoContext from '../context/crypto-context';
+import CryptoContext from '../context/CryptoContext';
 import { mapAssets } from '../utils';
 
 const columns = [

@@ -1,7 +1,7 @@
 import { Chart as ChartJS, ArcElement, Tooltip, Legend } from 'chart.js';
 import { useContext } from 'react';
 import { Pie } from 'react-chartjs-2';
-import CryptoContext from '../context/crypto-context';
+import CryptoContext from '../context/CryptoContext'
 import { mapAssets } from '../utils';
 
 ChartJS.register(ArcElement, Tooltip, Legend);

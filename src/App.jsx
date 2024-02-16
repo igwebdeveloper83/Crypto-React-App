@@ -1,5 +1,5 @@
 import './App.css'
-import { CryptoContextProvider } from './context/crypto-context';
+import { CryptoContextProvider } from './context/CryptoContext';
 import { AppLayout } from './components/layout/AppLayout';
 
 function App() {

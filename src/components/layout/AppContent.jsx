@@ -1,7 +1,7 @@
 import { Layout, Typography } from 'antd';
 import { useContext } from 'react';
-import CryptoContext from '../../context/crypto-context';
 import PortfolioChart from '../PortfolioChart';
+import CryptoContext from '../../context/CryptoContext';
 import AssetsTable from '../AssetsTable';
 
 
